@@ -3,7 +3,7 @@ import CityForm from './components/CityForm';
 import HotelForm from './components/HotelForm';
 import HotelList from './components/HotelList';
 
-const API_URL = 'http://127.0.0.1:8000/api/';
+const API_URL = 'https://gestion-hoteles.onrender.com/api/';
 
 function App() {
   const [ciudades, setCiudades] = useState([]);
